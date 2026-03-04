@@ -23,10 +23,10 @@ export function Navbar() {
         {/* Links */}
         <div className="flex items-center gap-1">
           <Link
-            href="/"
+            href="/app"
             className={cn(
               'px-3 py-1.5 rounded-lg text-sm transition-all',
-              pathname === '/'
+              pathname === '/app'
                 ? 'bg-white/10 text-white font-medium'
                 : 'text-white/50 hover:text-white hover:bg-white/5'
             )}
